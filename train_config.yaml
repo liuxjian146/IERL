@@ -3,7 +3,7 @@
 seed: 42
 
 
-data_dir: "/data/train/vessel_data_aug_hemo"
+data_dir: "/data/train/synthetic_dataset_aug10x_hemo"
 
 num_envs: 64       
 seq_len: 128       
