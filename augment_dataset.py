@@ -77,8 +77,8 @@ def augment_dataset(input_dir: str, output_dir: str, num_samples: int = 10, seed
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Vascular JSON Dataset Static Augmentation Tool")
-    parser.add_argument("--input_dir", type=str, default=r"/home/u6dm/wanganb.u6dm/data/synthetic_dataset", help="Original dataset root directory")
-    parser.add_argument("--output_dir", type=str, default=r"/home/u6dm/wanganb.u6dm/data/synthetic_dataset_aug10x", help="Target root directory to store 10x augmented files")
+    parser.add_argument("--input_dir", type=str, default=r"/data/synthetic_dataset", help="Original dataset root directory")
+    parser.add_argument("--output_dir", type=str, default=r"/data/synthetic_dataset_aug10x", help="Target root directory to store 10x augmented files")
     parser.add_argument("--samples", type=int, default=10, help="Number of bounding conditions to sample per file")
 
     args = parser.parse_args()
